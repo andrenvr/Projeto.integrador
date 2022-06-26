@@ -1,82 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,
         initial-scale=1.0">
-        <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="../static/style.css">
-        <link rel="icon" type='imagem/png' href="../static/imagens/São-Lourenço.png">      
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-        <title>monitoramento</title> 
+  <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../static/style.css">
+  <link rel="icon" type='imagem/png' href="../static/imagens/São-Lourenço.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <title>monitoramento</title>
 </head>
 
 <body>
-<aside id='header'>
+
+  <i class="bi bi-list menu-mobile"></i>
+
+  <aside id='header'>
     <section class="profile">
-        <img src="../static/imagens/png-transparent-computer-icons-red-web-website-miscellaneous-logo-racket-thumbnail.png" alt="Foto principal">
+      <img
+        src="../static/imagens/png-transparent-computer-icons-red-web-website-miscellaneous-logo-racket-thumbnail.png"
+        alt="Foto principal">
 
-<h1>Monitoramento de corrégos</h1>
+      <h1>Monitoramento de corrégos</h1>
 
-<div class="social-links mt-4 text-center">
+      <div class="social-links mt-4 text-center">
 
-<a target="_blank" href="https://github.com/andrenvr/sitee.git"> <i class="bi bi-github"></i>
-</a>
+        <a target="_blank" href="https://github.com/andrenvr/sitee.git"> <i class="bi bi-github"></i>
+        </a>
 
-<a target="_blank" href="https://www.climaaovivo.com.br/"> <i class="bi bi-thermometer-sun"></i>
-</a>
+        <a target="_blank" href="https://www.climaaovivo.com.br/"> <i class="bi bi-thermometer-sun"></i>
+        </a>
 
-<a target="_blank" href="https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/558/saopaulo-sp"><i class="bi bi-cloud-rain-heavy-fill"></i>
-</a>
+        <a target="_blank" href="https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/558/saopaulo-sp"><i
+            class="bi bi-cloud-rain-heavy-fill"></i>
+        </a>
 
-</div>
+      </div>
     </section>
 
     <nav id="navbar" class="nav-menu">
-        <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i>Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-cloud-lightning-fill"></i>Motivos de Enchente</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-patch-exclamation-fill"></i>Sua Regiao</a>
-            </li>
-        
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i>Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre"><i class="bi bi-cloud-lightning-fill"></i>Motivos de Enchente</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-patch-exclamation-fill"></i>Sua Regiao</a>
+        </li>
+
 
     </nav>
-</aside>
+  </aside>
 
-<main id='main'>
+  <main id='main'>
 
-  <section id="inicio"  class="row m-0 p-0">
-    <div class="col-md-5 d-flex justify-content-center 
+    <section id="inicio" class="row m-0 p-0">
+      <div class="col-md-5 d-flex justify-content-center 
     align-items-center flex-column">
-      <h2 class="text-white text-shadow"> Corregos em São Paulo</h2>
-      <span id="subtitle" class="text-white text-shadow">Motivos de alagamento</span>
-    </div>
+        <h2 class="text-white text-shadow"> Corregos em São Paulo</h2>
+        <span id="subtitle" class="text-white text-shadow">Motivos de alagamento</span>
+      </div>
 
 
-    <div class="col-md-7 d-flex justify-content-end 
-    align-items-end"> 
-    <div id="arraste" class="d-flex alingn-items-center">
-     <i class="bi bi-arrow-down text-white pe-2 fs-2"
- aria-hidden="true"></i>
- <a href="">Arraste mais</a>
-    </div>  
-  </div>
+      <div class="col-md-7 d-flex justify-content-end 
+    align-items-end">
+        <div id="arraste" class="d-flex alingn-items-center">
+          <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+          <a href="#sobre">Arraste mais</a>
+        </div>
+      </div>
 
-  </section>
+    </section>
 
-</main>
+    <section class="container mt-5" id="sobre">
+
+      <div class="row w-100">
+        <div class="cal-md-12">
+          <h2 class='pt-3'>Sobre</h2>
+
+          <p>As enchentes, inundações e alagamentos, têm causas naturais e antrópicas: O fator natural decorre do grande
+            volume de chuva em rios perenes, que costumam ter dois tipos de leito: o leito menor, que é por onde a água
+            corre durante maior parte do tempo e o leito maior, que é inundado após um período de cheias.Várias são as
+            causas das enchentes urbanas mas, entre as principais, relacionamos as chuvas, o tipo de piso, lixo nos
+            bueiros, erros de projeto (drenagem insuficiente) e a ocupação irregular do solo.</p>
+
+        </div>
+
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img class="img-fluid shadow" src="../static/imagens/carro-cai-em-corrego-durante-temporal-em-sp.jpg"
+            alt="foto de alagamento">
+        </div>
+        <div class="col-md-8">
+          <h3>Principais motivos de enchentes </h3>
+          <p> Além do mais, há problemas causados pela poluição gerada por empresas e outros órgãos. Com isso, ocorre o
+            entupimento dos bueiros, que seriam responsáveis por conter parte da água que eleva o nível dos rios. Além
+            disso, o lixo gerado é levado pelas enxurradas e contribui ainda mais para elevar o volume das águas.</p>
+
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="list-group list-group-flush fs-5">
+              
+                <li class="list-group-item">1° Motivo: 
+                  <span class="fw-lighter"> Lixo descartado indevidamente </span>
+
+
+                </li>
+
+                <li class="list-group-item">
+
+                </li>
+                <li class="list-group-item">3° Motivo:
+                  <span class="fw-lighter"> Mau uso do espaço urbano </span>
+          </li>
+                    
+              </ul>
+
+            </div>
+
+            <div class="col-md-6">
+              <ul class="list-group list-group-flush fs-5">
+                <li class="list-group-item">2° Motivo: 
+                  <span class="fw-lighter">Problemas de drenagem</span>
+                </li>
+                <li class="list-group-item">4º Motivo:
+                  <span class="fw-lighter"> Ocupaçao irregular ou desordenada </span>
+                </li>
+                
+                            </ul>
+
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
 
 
 
 
-<script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="../static/script.js"></script>
+  <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/script.js"></script>
 
 </body>
 
