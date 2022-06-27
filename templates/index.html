@@ -15,6 +15,18 @@
 
 <body>
 
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  </style>
   <i class="bi bi-list menu-mobile"></i>
 
   <aside id='header'>
@@ -49,7 +61,7 @@
           <a class="nav-link" href="#sobre"><i class="bi bi-cloud-lightning-fill"></i>Motivos de Enchente</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="bi bi-patch-exclamation-fill"></i>Sua Regiao</a>
+          <a class="nav-link" href="#habilidades"><i class="bi bi-patch-exclamation-fill"></i>Sua Regiao</a>
         </li>
 
 
@@ -106,8 +118,8 @@
           <div class="row">
             <div class="col-md-6">
               <ul class="list-group list-group-flush fs-5">
-              
-                <li class="list-group-item">1° Motivo: 
+
+                <li class="list-group-item">1° Motivo:
                   <span class="fw-lighter"> Lixo descartado indevidamente </span>
 
 
@@ -118,22 +130,22 @@
                 </li>
                 <li class="list-group-item">3° Motivo:
                   <span class="fw-lighter"> Mau uso do espaço urbano </span>
-          </li>
-                    
+                </li>
+
               </ul>
 
             </div>
 
             <div class="col-md-6">
               <ul class="list-group list-group-flush fs-5">
-                <li class="list-group-item">2° Motivo: 
+                <li class="list-group-item">2° Motivo:
                   <span class="fw-lighter">Problemas de drenagem</span>
                 </li>
                 <li class="list-group-item">4º Motivo:
                   <span class="fw-lighter"> Ocupaçao irregular ou desordenada </span>
                 </li>
-                
-                            </ul>
+
+              </ul>
 
 
             </div>
@@ -144,6 +156,32 @@
       </div>
 
     </section>
+    <nav id="navbar" class="nav-prof">
+      <ul class="mt-5 section-bg" id="habilidades">
+        <div class="container pb-5">
+         
+          
+          <div class="diretorio-link mt-8 text-center">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" target="_blank" aria-current="page"
+                  href="http://18.211.70.249/API_enchentes/V0/dado.php"><i class="bi bi-app-indicator">></i>tempo
+                  real</a>
+
+
+                </a>
+
+              </li>
+
+
+          </div>
+
+
+
+        </div>
+
+    </nav>
+
 
   </main>
 

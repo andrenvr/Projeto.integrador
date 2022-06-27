@@ -20,6 +20,12 @@ body {
     z-index: 9999;
 }
 
+.access-button {
+    border: 8px solid #2125297d !important;
+    width: 40% !important;     
+    border-radius: 50px !important;
+  }
+
 #header .profile img {
     margin: 15px auto;
     display: block;
@@ -187,3 +193,38 @@ i.menu-mobile {
     background-color: #252c90;
     border-radius: 10%;
 }
+
+
+.nav-prof {
+    padding: 1.5rem;
+}
+
+.nav-prof a,
+.nav-prof a:focus {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    transition: 0.3s;
+    font-size: 30px;
+}
+
+.nav-prof a i,
+.nav-prof a:focus i {
+    font-size: 45px;
+    padding-right: 0.8rem;
+    color: #6f7180;
+}
+
+.nav-prof a:hover,
+.nav-prof .active,
+.nav-prof .active:focus,
+.nav-prof li:hover>a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav-prof a:hover i,
+.nav-prof .active i,
+.nav-prof .active:focus i,
+.nav-prof li:hover>a i {
+    color: #000000 ;}
