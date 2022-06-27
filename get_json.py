@@ -20,3 +20,4 @@ print(pressao)
 print(umidade)
 print(altura)
 print(timestamp)
+
